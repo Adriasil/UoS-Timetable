@@ -1,0 +1,67 @@
+/**
+ * CanineTest.java
+ */
+
+package handlingerrors.animal;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+/**
+ * Tests the <code>Canine</code>
+ * 
+ * @author Matthew Casey
+ */
+public class CanineTest {
+
+  /**
+   * Test having too loud a bark without a try/catch block.
+   */
+  @Test(expected = IllegalArgumentException.class)
+  public void testLoudBarkNoTry() {
+    // Create a canine that is 100% hungry, 100% tired and has a 101% bark.
+    Canine canine = new Canine(100, 100, 101);
+
+    // We shouldn't get here.
+    canine.makeNoise();
+  }
+
+  /**
+   * Test having too loud a bark with a try/catch block.
+   */
+  @Test(expected = IllegalArgumentException.class)
+  public void testLoudBarkNoTry() {
+    // Create a canine that is 100% hungry, 100% tired and has a 101% bark.
+    Canine canine = new Canine(100, 100, 101);
+
+    // We shouldn't get here.
+    canine.makeNoise();
+  }
+
+  /**
+   * Test making a noise.
+   */
+  @Test
+  public void testMakingANoise() {
+    // Create a canine that is 100% hungry, 100% tired and has a 50% bark.
+    Canine canine = new Canine(100, 100, 50);
+
+    // Test that the animal has been created correctly.
+    assertEquals(100, canine.getHowHungry(), 0);
+    assertEquals(100, canine.getHowTired(), 0);
+    assertEquals(50, canine.getStrengthOfBark(), 0);
+
+    // Make some noise.
+    System.out.print("Test Making a Noise: ");
+    canine.makeNoise();
+    System.out.println();
+
+    // What happens if we treat the canine as an Animal?
+    Animal animal = canine;
+
+    System.out.print("Test Making a Noise: ");
+    animal.makeNoise();
+    System.out.println();
+  }
+}

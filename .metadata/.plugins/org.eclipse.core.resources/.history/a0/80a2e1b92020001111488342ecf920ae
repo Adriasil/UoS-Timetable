@@ -1,0 +1,32 @@
+/**
+ * Cylinder.java
+ */
+
+package org.com1027.cylinderExample;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Cylinder {
+  private double length = 0;
+  private double diameter = 0;
+  
+  public Cylinder() {
+    this.length = 100;
+    this.diameter = 2.2;
+  }
+  
+  public Cylinder(double length, double diameter) {
+    this.length = length;
+    this.diameter = diameter;
+  }
+  
+  public double area() {
+    return length*Math.PI*diameter;
+  }
+  
+  public double volume() {
+    return length*Math.PI*0.25*Math.pow(diameter, 2);
+  }
+}

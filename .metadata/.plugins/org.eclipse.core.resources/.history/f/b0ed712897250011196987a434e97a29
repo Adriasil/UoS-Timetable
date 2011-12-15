@@ -1,0 +1,23 @@
+package org.com1027.lab11.example1;
+
+public class MP3Player extends Electronics{
+   
+    private String color;
+   
+    public MP3Player(double regularPrice,
+                String manufacturer,
+                String color) {
+        super(regularPrice, manufacturer);
+        this.color = color;
+    }
+  
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+}

@@ -1,0 +1,36 @@
+/**
+ * Main.java
+ */
+
+package org.com1027.lab11.exercise1;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Main {
+  private int years = 0;
+  
+  private void yearRotator() {
+    Account s1 = new Savings(100, 10);
+    Account s2 = new Savings2(100, 10);
+    
+    s1.deductFees();
+    s2.deductFees();
+    
+    while(s1.getBalance()>=s2.getBalance()) {
+      s1.deductFees();
+      s1.calculateYearlyInterest();
+      s2.calculateYearlyInterest();
+      years++;
+    }
+    System.out.println("It will take " + years + "for savings2's balance(" + s2.getBalance() +") to become greater than saving1's balance(" + s1.getBalance() + ")")
+  }
+  /**
+   * @param args
+   */
+  public static void main(String[] args) {
+    
+  }
+
+}

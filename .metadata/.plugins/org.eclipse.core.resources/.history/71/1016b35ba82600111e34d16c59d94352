@@ -1,0 +1,16 @@
+/**
+ * IRoomFeatureInterface.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public interface IRoomFeature {
+  
+  public double getArea();
+  
+  public double getWidth();
+}

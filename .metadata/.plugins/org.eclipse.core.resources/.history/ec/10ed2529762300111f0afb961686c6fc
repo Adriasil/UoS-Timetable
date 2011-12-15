@@ -1,0 +1,22 @@
+/**
+ * CarpetTest.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class CarpetTest {
+
+  @Test
+  public final void test() {
+    fail("Not yet implemented"); // TODO
+  }
+
+}

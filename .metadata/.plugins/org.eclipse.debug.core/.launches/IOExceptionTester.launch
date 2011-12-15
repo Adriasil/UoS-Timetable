@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/COM1027_lab9/src/org/com1027/lab9/example1/IOExceptionTester.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.com1027.lab9.example1.IOExceptionTester"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="COM1027_lab9"/>
+</launchConfiguration>

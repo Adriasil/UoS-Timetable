@@ -1,0 +1,86 @@
+/**
+ * Carpet.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Carpet implements IRoomFeature {
+  private double width = 0;
+  private double length = 0;
+  private String pattern = null;
+  private int gapLength = 0;
+  
+  public Carpet(double width, double length, int gapLength, String pattern) throws IllegalArgumentException {
+    if (width <= 0 || length <=0) {
+      throw new IllegalArgumentException("The width or height of the window is invalid. The height and width must be over 0.");
+    }
+    this.length = length;
+    this.width = width;
+    this.gapLength = gapLength;
+    this.pattern = pattern;
+  }
+  
+  public double getLength() {
+    return this.length;
+  }
+  
+  public int getPatternLength() {
+    return this.pattern.length();
+  }
+  
+  public int getGapLength() {
+    return this.gapLength;
+  }
+  
+  public String getPattern() {
+    return this.pattern;
+  }
+  
+  public double getWidth() {
+    return this.width;
+  }
+  
+  /**
+   * @return
+   *
+   * @see org.com1027.cw3.sl00225.IRoomFeature#getArea()
+   */
+  @Override
+  public double getArea() {
+    return (width * length);
+  }
+  
+  public String printCarpet() {
+    StringBuffer gap = new StringBuffer("");
+    for (int i=0; i<gapLength; i++){
+      gap.append(".");
+    }
+    String patternSection = (this.pattern + gap);
+    StringBuffer carpetLine = new StringBuffer("");
+    while (carpetLine.length() < width) {
+      carpetLine.append(patternSection);
+    }
+    while (carpetLine.length() > width) {
+      carpetLine.deleteCharAt(carpetLine.length()-1);
+    }
+    StringBuffer fullPattern = new StringBuffer("");
+    for (int i=0; i<length; i++) {
+      if (i+1 == length) {
+        fullPattern.append(carpetLine);
+      }
+      else {
+        fullPattern.append(carpetLine + "\n");
+      }
+    }
+    return (fullPattern + "");
+  }
+  
+  public boolean isCarpet() {
+    return true;
+  }
+
+}

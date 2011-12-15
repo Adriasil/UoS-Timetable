@@ -1,0 +1,25 @@
+/**
+ * Pipe.java
+ */
+
+package org.com1027.cylinderExample;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Pipe extends Cylinder {
+  private int date = 0;
+  
+  public Pipe() {
+    this.date = 2000;
+  }
+  
+  public Pipe(int year) {
+    this.date = year;
+  }
+  
+  public int getDate() {
+    return this.date;
+  }
+}

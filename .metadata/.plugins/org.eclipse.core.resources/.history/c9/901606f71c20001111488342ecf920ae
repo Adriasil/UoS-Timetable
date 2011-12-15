@@ -1,0 +1,22 @@
+/**
+ * PipeTest.java
+ */
+
+package org.com1027.cylinderExample;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class PipeTest {
+
+  /**
+   * @param args
+   */
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    Pipe thinPipe = new Pipe(2008, 400, 2.1);
+    Pipe fatPipe = new Pipe(2007, 40, 20.8);
+  }
+
+}

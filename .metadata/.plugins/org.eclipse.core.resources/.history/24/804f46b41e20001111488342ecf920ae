@@ -1,0 +1,29 @@
+/**
+ * Barrel.java
+ */
+
+package org.com1027.cylinderExample;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Barrel extends Cylinder {
+
+  /**
+   * 
+   */
+  public Barrel() {
+    // TODO Auto-generated constructor stub
+  }
+
+  /**
+   * @param length
+   * @param diameter
+   */
+  public Barrel(double length, double diameter) {
+    super(length, diameter);
+    // TODO Auto-generated constructor stub
+  }
+
+}

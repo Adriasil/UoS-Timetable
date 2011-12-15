@@ -1,0 +1,23 @@
+/**
+ * CarpetTest.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class CarpetTest {
+
+  @Test
+  public final void test() {
+    Carpet carpet = new Carpet(22,1,3,"||");
+    assertEquals("||...", carpet.printCarpet());
+  }
+
+}

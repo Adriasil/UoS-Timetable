@@ -1,0 +1,68 @@
+/**
+ * SportsHall.java
+ */
+
+package org.com1027.lab11.exercise2;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class SportsHall implements ISportsHall {
+  
+  List<IPerson> court1List = null;
+  List<IPerson> court2List = null;
+  Map<COURTS, List<IPerson>> courts = null;
+
+  /**
+   * 
+   *
+   * @see org.com1027.lab11.exercise2.ISportsHall#emptyCourts()
+   */
+  @Override
+  public void emptyCourts() {
+    // TODO Auto-generated method stub
+
+  }
+
+  /**
+   * @param p
+   * @param court
+   *
+   * @see org.com1027.lab11.exercise2.ISportsHall#play(org.com1027.lab11.exercise2.IPerson, org.com1027.lab11.exercise2.ISportsHall.COURTS)
+   */
+  @Override
+  public void play(IPerson p, COURTS court) {
+    // TODO Auto-generated method stub
+
+  }
+
+  /**
+   * @return
+   *
+   * @see org.com1027.lab11.exercise2.ISportsHall#howManyPlayingOnCourts()
+   */
+  @Override
+  public int howManyPlayingOnCourts() {
+    // TODO Auto-generated method stub
+    return 0;
+  }
+
+  /**
+   * @param p
+   * @return
+   *
+   * @see org.com1027.lab11.exercise2.ISportsHall#isPlaying(org.com1027.lab11.exercise2.IPerson)
+   */
+  @Override
+  public boolean isPlaying(IPerson p) {
+    // TODO Auto-generated method stub
+    return false;
+  }
+
+}

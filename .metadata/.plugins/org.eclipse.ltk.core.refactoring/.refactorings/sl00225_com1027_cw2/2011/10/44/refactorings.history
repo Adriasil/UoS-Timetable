@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;rain.txt&apos; to &apos;sl00225_com1027_cw2&apos;&#x0A;- Original project: &apos;sl00225_com1027_cw2&apos;&#x0A;- Destination element: &apos;sl00225_com1027_cw2&apos;&#x0A;- Original element: &apos;rain.txt&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=sl00225_com1027_cw2" element1="src/org/com1027/cw2/sl00225/rain.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1319763237249" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1250172852812
+os,sysinfo,,,"win32",1250172852812
+arch,sysinfo,,,"x86",1250172852812
+ws,sysinfo,,,"win32",1250172852812
+locale,sysinfo,,,"en_GB",1250172852812
+processors,sysinfo,,,"2",1250172852812
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1250172852812
+java.runtime.version,sysinfo,,,"1.6.0_15-b03",1250172852812
+java.specification.name,sysinfo,,,"Java Platform API Specification",1250172852812
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250172852812
+java.specification.version,sysinfo,,,"1.6",1250172852812
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1250172852812
+java.version,sysinfo,,,"1.6.0_15",1250172852812
+java.vm.info,sysinfo,,,"mixed mode",1250172852812
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1250172852812
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1250172852812
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1250172852812
+java.vm.specification.version,sysinfo,,,"1.0",1250172852812
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1250172852812
+java.vm.version,sysinfo,,,"14.1-b02",1250172852812
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250172855218
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250172858640
+started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1250172865218
+started,bundle,org.eclipse.jdt.launching,3.5.0.v20090527,"org.eclipse.jdt.launching",1250172865265
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250172865531

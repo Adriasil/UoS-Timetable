@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 17 resources" deleteContents="false" description="Delete 17 resources" element1="/cl00203_com1027_cw2" element10="/COM1027_lab7" element11="/COM1027_lab8" element12="/COM1027_lab9" element13="/sl00225_com1027_cw1" element14="/sl00225_com1027_cw2" element15="/sl00225_com1027_cw3" element16="/vk00062_com1027_cw2" element17="/ye00006_com1027_cw2" element2="/COM1027" element3="/COM1027_lab10" element4="/COM1027_lab11" element5="/COM1027_lab2" element6="/COM1027_lab3" element7="/COM1027_lab4" element8="/COM1027_Lab5" element9="/COM1027_lab6" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="17" stamp="1323913905877"/>
+</session>

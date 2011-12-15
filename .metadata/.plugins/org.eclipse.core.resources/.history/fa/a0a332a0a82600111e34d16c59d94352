@@ -1,0 +1,37 @@
+/**
+ * Window.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Window implements IRoomFeature {
+  private double width = 0;
+  private double height = 0;
+  
+  public Window(double width, double height) throws IllegalArgumentException {
+    if (width <= 0 || height <=0) {
+      throw new IllegalArgumentException("The width or height of the window is invalid. The height and width must be over 0.");
+    }
+    this.height = height;
+    this.width = width;
+  }
+  
+  /**
+   * @return
+   *
+   * @see org.com1027.cw3.sl00225.IRoomFeature#getArea()
+   */
+  @Override
+  public double getArea() {
+    return (width * height);
+  }
+  
+  public double getWidth() {
+    return this.width;
+  }
+
+}

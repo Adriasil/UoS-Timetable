@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ItemException.java&apos; to &apos;org.com1027.lab9.exercise.ItemException.java&apos;&#x0A;- Original project: &apos;COM1027_lab9&apos;&#x0A;- Destination element: &apos;org.com1027.lab9.exercise.ItemException.java&apos;&#x0A;- Original element: &apos;org.com1027.lab9.exercise.ItemException.java&apos;" description="Copy compilation unit" destination="/src&lt;org.com1027.lab9.exercise{ItemException.java" element1="/src&lt;org.com1027.lab9.exercise{ItemException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1322580834220" units="1" version="1.0"/>
+</session>

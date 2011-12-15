@@ -1,0 +1,43 @@
+/**
+ * Door.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Door implements IRoomFeature {
+
+  private double height = 0;
+  private double width  = 0;
+
+  public Door(double width, double height) throws IllegalArgumentException {
+    if (width <= 0 || height <= 0) {
+      throw new IllegalArgumentException("The width or height of the door is invalid. The height and width must be over 0.");
+    }
+    this.height = height;
+    this.width = width;
+  }
+
+  /**
+   * @return area
+   * 
+   * @see org.com1027.cw3.sl00225.IRoomFeature#getArea()
+   */
+  @Override
+  public double getArea() {
+    return (this.width * this.height);
+  }
+
+  @Override
+  public double getWidth() {
+    return this.width;
+  }
+
+  @Override
+  public boolean isCarpet() {
+    return false;
+  }
+
+}

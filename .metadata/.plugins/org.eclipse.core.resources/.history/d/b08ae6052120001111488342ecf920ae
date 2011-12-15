@@ -1,0 +1,39 @@
+/**
+ * Barrel.java
+ */
+
+package org.com1027.cylinderExample;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Barrel extends Cylinder {
+  private double length = 0;
+  private double diameter = 0;
+
+  /**
+   * 
+   */
+  public Barrel() {
+    super();
+    this.length = 200;
+    this.diameter = 2.2;
+  }
+
+  /**
+   * @param length
+   * @param diameter
+   */
+  public Barrel(double length, double diameter) {
+    super(length, diameter);
+    this.length = length;
+    this.diameter = diameter;
+  }
+  
+  @Override
+  public double area() {
+    return (super.getLength()*Math.PI*super.getDiameter())+(2*(Math.PI*Math.pow((super.getDiameter()/2), 2)));
+  }
+
+}

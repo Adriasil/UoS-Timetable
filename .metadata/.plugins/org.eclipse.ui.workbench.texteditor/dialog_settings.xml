@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="243" key="DIALOG_WIDTH"/>
+		<item value="101" key="DIALOG_Y_ORIGIN"/>
+		<item value="1020" key="DIALOG_X_ORIGIN"/>
+		<item value="379" key="DIALOG_HEIGHT"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="" key="selection"/>
+		<list key="findhistory">
+			<item value="4.0"/>
+			<item value="findYearPosition("/>
+			<item value="findYearPosition()"/>
+			<item value="findYear"/>
+			<item value="findyear"/>
+			<item value="54"/>
+			<item value="int"/>
+			<item value="ordinal"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="vehicle"/>
+			<item value="fuel"/>
+			<item value="Vehicle"/>
+			<item value="Fuel"/>
+		</list>
+	</section>
+</section>

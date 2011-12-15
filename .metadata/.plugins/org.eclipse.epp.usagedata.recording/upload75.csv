@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jface,3.5.0.I20090525-2000,"org.eclipse.jface",1250602527375
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1250602527375
+started,bundle,org.eclipse.mylyn.commons.net,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.net",1250602527375
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.ui",1250602527390
+started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1250602527421
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1250602527421
+started,bundle,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui",1250602527468
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1250602527531
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1250602527546
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1250602527625
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1250602527640
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1250602527671
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1250602527703
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1250602527718
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1250602527734
+started,bundle,com.collabnet.subversion.merge,1.9.0.4,"com.collabnet.subversion.merge",1250602527734
+started,bundle,org.tigris.subversion.clientadapter,1.6.0.2,"org.tigris.subversion.clientadapter",1250602527734
+started,bundle,org.tigris.subversion.subclipse.core,1.6.2,"org.tigris.subversion.subclipse.core",1250602527734
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.2,"org.tigris.subversion.subclipse.ui",1250602527812
+os,sysinfo,,,"win32",1250602527812
+arch,sysinfo,,,"x86",1250602527812
+ws,sysinfo,,,"win32",1250602527812
+locale,sysinfo,,,"en_GB",1250602527812
+processors,sysinfo,,,"2",1250602527812
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1250602527812

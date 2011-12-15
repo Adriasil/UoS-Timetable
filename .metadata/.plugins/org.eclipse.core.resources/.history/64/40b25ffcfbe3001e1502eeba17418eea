@@ -1,0 +1,51 @@
+/**
+ * Canine.java
+ */
+
+package handlingerrors.animal;
+
+/**
+ * Defines the properties and behaviour of a canine. This is partly based upon the example used in Bates, K. & Bates, B. (2005).
+ * Head First Java. Sebastopol, CA: O’Reilly Media, Inc.
+ * 
+ * @author Matthew Casey
+ */
+public class Canine extends Animal {
+
+  /** How strong is the canine's bark? Percentage strength. */
+  private double strengthOfBark = 0;
+
+  /**
+   * Constructor. Sets the field values.
+   * 
+   * @param howHungry
+   *          How hungry is the animal?
+   * @param howTired
+   *          How tired is the animal?
+   * @param strengthOfBark
+   *          How strong is the canine's bark?
+   */
+  public Canine(double howHungry, double howTired, double strengthOfBark) {
+    super(howHungry, howTired);
+
+    this.strengthOfBark = strengthOfBark;
+  }
+
+  /**
+   * @return How strong the canine's bark is (percentage).
+   */
+  public double getStrengthOfBark() {
+    return this.strengthOfBark;
+  }
+
+  /**
+   * Override the making a noise behaviour to bark.
+   * 
+   * @see workingwithclasses.animal.Animal#makeNoise()
+   */
+  @Override
+  public void makeNoise() {
+    super.makeNoise();
+    System.out.print(": Bark");
+  }
+}

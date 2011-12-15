@@ -1,0 +1,21 @@
+/**
+ * Main.java
+ */
+
+package org.com1027.lab11.exercise1;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Main {
+
+  /**
+   * @param args
+   */
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

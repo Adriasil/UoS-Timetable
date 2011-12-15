@@ -1,0 +1,42 @@
+/**
+ * Room.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Room {
+  private double height = 0;
+  private double width = 0;
+  private double length = 0;
+  private List<IRoomFeature> wallFeatures = new ArrayList<IRoomFeature>();
+  private Carpet carpet = null;
+  
+  public void addCarpet(Carpet carpet) throws IllegalArgumentException {
+    if (carpet.getLength() > this.length || carpet.getWidth() > this.width) {
+      throw new IllegalArgumentException("The length or width of the carpet (" + this.length + "," + this.width + ") is greater than the length or width of the room("+ carpet.getLength() + "," + carpet.getWidth() + ").");
+    }
+    this.carpet = carpet;
+  }
+  
+  public void addWallFeature(IRoomFeature wallFeature) throws IllegalArgumentException {
+    if (wallFeature.getWidth() > this.width || (wallFeature.getWidth()/wallFeature.getArea()) > this.height) {
+      throw new IllegalArgumentException("The height or width of this feature is greater than the height or width of the room.");
+    }
+    wallFeatures.add(wallFeature);
+  }
+  
+  public double getWallArea() {
+    return ((2 * this.width * this.height) + (2 * this.length * this.height));
+  }
+  
+  public double getfloorArea() {
+    return (this.width * this.length);
+  }
+}

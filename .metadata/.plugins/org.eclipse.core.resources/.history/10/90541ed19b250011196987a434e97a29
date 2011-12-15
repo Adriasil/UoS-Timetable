@@ -1,0 +1,63 @@
+/**
+ * Account.java
+ */
+
+package org.com1027.lab11.exercise1;
+
+
+/**
+ * @author css2ht
+ */
+public abstract class Account {
+ private double balance;
+ private double interest;
+ 
+ 
+/**
+ * @param balance
+ * @param interest
+ */
+public Account(double balance, double interest) {
+  super();
+  this.balance = balance;
+  this.interest = interest;
+}
+
+
+/**
+ * @return the balance
+ */
+public double getBalance() {
+  return this.balance;
+}
+
+
+/**
+ * @param balance the balance to set
+ */
+public void setBalance(double balance) {
+  this.balance = balance;
+}
+
+
+/**
+ * @return the interest
+ */
+public double getInterest() {
+  return this.interest;
+}
+
+
+/**
+ * @param interest the interest to set
+ */
+public void setInterest(double interest) {
+  this.interest = interest;
+}
+
+public abstract void deductFees();
+
+public void calculateYearlyInterest(){
+  this.balance += this.balance * this.interest;
+}
+}

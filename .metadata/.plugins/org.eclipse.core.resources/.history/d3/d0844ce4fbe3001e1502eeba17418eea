@@ -1,0 +1,19 @@
+/**
+ * AnimalTest.java
+ */
+
+package handlingerrors.animal;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+/**
+ * This class defines the JUnit4 test suite for the animal package.
+ * 
+ * @author Matthew Casey
+ */
+@RunWith(Suite.class)
+@Suite.SuiteClasses( { AnimalTest.class, CanineTest.class, DogTest.class, FelineTest.class, HippopotamusTest.class, LionTest.class,
+    TigerTest.class, WolfTest.class })
+public class AllTests {
+}

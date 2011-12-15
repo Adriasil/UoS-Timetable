@@ -1,0 +1,18 @@
+package org.com1027.lab11.example1;
+
+//Electronics class is now an abstract class because
+//it does not provide implementation of the
+//computeSalePrice() abstract method.
+public abstract class Electronics extends Item{
+
+ private String manufacturer;
+
+ /** Creates a new instance of Electronics */
+ public Electronics(double price,
+         String manufacturer) {
+     super(price);
+     this.manufacturer = manufacturer;
+ }
+
+
+}

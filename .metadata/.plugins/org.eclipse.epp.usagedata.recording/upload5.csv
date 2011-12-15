@@ -1,0 +1,15 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250168340328
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250168347593
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250168350718
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250168378312
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.import",1250168378328
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250168381000
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250169146515
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1250169149687
+started,bundle,org.eclipse.core.filesystem,1.2.0.v20090507,"org.eclipse.core.filesystem",1250169149796
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.ide.ant",1250169149906
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1250169149921
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1250169149953
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.java.tasks",1250169149984
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.java.ui",1250169150031

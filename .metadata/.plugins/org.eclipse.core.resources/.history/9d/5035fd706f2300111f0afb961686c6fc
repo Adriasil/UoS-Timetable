@@ -1,0 +1,49 @@
+/**
+ * Carpet.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Carpet implements IRoomFeature {
+  private double width = 0;
+  private double length = 0;
+  private String pattern = null;
+  private int gapLength = 0;
+  
+  public Carpet(double width, double length, int gapLength, String pattern) throws IllegalArgumentException {
+    if (width <= 0 || length <=0) {
+      throw new IllegalArgumentException("The width or height of the window is invalid. The height and width must be over 0.");
+    }
+    this.length = length;
+    this.width = width;
+    this.gapLength = gapLength;
+    this.pattern = pattern;
+  }
+  
+  public int getPatternLength() {
+    return this.pattern.length();
+  }
+  
+  public int getGapLength() {
+    return this.gapLength;
+  }
+  
+  public String getPattern() {
+    return this.pattern;
+  }
+  
+  /**
+   * @return
+   *
+   * @see org.com1027.cw3.sl00225.IRoomFeature#getArea()
+   */
+  @Override
+  public double getArea() {
+    return (width * length);
+  }
+
+}

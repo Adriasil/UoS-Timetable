@@ -1,0 +1,18 @@
+package org.com1027.lab11.example1;
+
+
+//Product class is now an abstract class
+public class Item {
+
+ private double price;
+
+ /** Creates a new instance of Product */
+ public Item(double price) {
+     this.price = price;
+ }
+
+ // calculateSalePrice() is now an abstract method
+ public abstract double calculateSalePrice();
+
+
+}

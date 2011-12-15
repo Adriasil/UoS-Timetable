@@ -1,0 +1,25 @@
+/**
+ * Carpet.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Carpet implements IRoomFeature {
+  private double width = 0;
+  private double height = 0;
+  
+  /**
+   * @return
+   *
+   * @see org.com1027.cw3.sl00225.IRoomFeature#getArea()
+   */
+  @Override
+  public double getArea() {
+    return (width * height);
+  }
+
+}

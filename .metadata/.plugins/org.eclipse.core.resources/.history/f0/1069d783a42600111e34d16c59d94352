@@ -1,0 +1,32 @@
+/**
+ * Room.java
+ */
+
+package org.com1027.cw3.sl00225;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Room {
+  private double height = 0;
+  private double width = 0;
+  private double length = 0;
+  private List<IRoomFeature> wallFeatures = new ArrayList<IRoomFeature>();
+  private Carpet carpet = null;
+  
+  public void addCarpet(double width, double length) {
+    
+  }
+  
+  public double getWallArea() {
+    return ((2 * this.width * this.height) + (2 * this.length * this.height));
+  }
+  
+  public double getfloorArea() {
+    return (this.width * this.length);
+  }
+}

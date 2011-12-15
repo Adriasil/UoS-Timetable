@@ -1,0 +1,21 @@
+package org.com1027.lab11.example1;
+public class Book extends Item{
+	   
+    private String publisher;
+    private int yearPublished;
+   
+    /** Creates a new instance of Book */
+    public Book(double regularPrice,
+            String publisher,
+            int yearPublished) {
+        super(regularPrice);
+        this.publisher = publisher;
+        this.yearPublished = yearPublished;
+    }
+   
+    @Override
+    public double calculateSalePrice() {
+      return super.getPrice() * 0.5;
+    }
+   
+}

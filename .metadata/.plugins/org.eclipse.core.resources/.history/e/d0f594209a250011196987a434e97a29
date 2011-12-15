@@ -1,0 +1,33 @@
+/**
+ * Savings.java
+ */
+
+package org.com1027.lab11.exercise1;
+
+
+/**
+ * @author stephenlarkin_me
+ */
+public class Savings extends Account {
+
+  /**
+   * @param balance
+   * @param interest
+   */
+  public Savings(double balance, double interest) {
+    super(balance, interest);
+    // TODO Auto-generated constructor stub
+  }
+
+  /**
+   * 
+   *
+   * @see org.com1027.lab11.exercise1.Account#deductFees()
+   */
+  @Override
+  public void deductFees() {
+    super.setBalance(getBalance()-5);
+  }
+
+  
+}
